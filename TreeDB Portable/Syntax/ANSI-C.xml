@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<XML>
+  
+  
+  <Engine>
+    
+    
+    <Author>SoftArtStudio</Author>
+    <URL>http://www.mytreedb.com</URL>
+    <Version>1.0</Version>
+  </Engine>
+  <General>
+    
+    
+    <Name>ANSI C</Name>
+    <Version>1.0</Version>
+    <Files>h</Files>
+    <Delimeters/>
+    <Case>No</Case>
+  </General>
+  <Author>
+    
+    
+    <Copyright/>
+    <Email/>
+    <Name/>
+    <URL/>
+    <Notes/>
+  </Author>
+  <Styles>
+    
+    <font>
+      <Title>Normal text</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clWindowText</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Keywords</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlue</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Standart types</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlue</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>String</Title>
+      <Name>Courier New</Name>
+      <ColorFont>$000000C6</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Numbers</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clRed</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Comments</Title>
+      <Name>Courier New</Name>
+      <ColorFont>$0000A9FB</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+  </Styles>
+  <Keywords>
+    
+    
+    <lib>
+      <Title>Keywords</Title>
+      <Style>1</Style>
+      <List>auto|break|case|char|const|continue|default|do|double|else|enum|extern|float|for|goto|if|int|long|register|return|short|signed|sizeof|static|struct|switch|typedef|union|unsigned|void|volatile|while|||</List>
+    </lib>
+    <lib>
+      <Title>preprocessor</Title>
+      <Style>2</Style>
+      <List>#include|#define|#if|#ifdef |#ifndef |#line |#undef |#pragma |#else|#error |#elif|#endif|</List>
+    </lib>
+    <lib>
+      <Title>Arithmetic</Title>
+      <Style>2</Style>
+      <List>+|-|/|*|%|modulo|--|++|</List>
+    </lib>
+    <lib>
+      <Title>Operator</Title>
+      <Style>2</Style>
+      <List><![CDATA[=|*=|/=|%=|+=|-=|<<=|>>=|&=|^=||=|==|!=|>|<|>=|<=|&&||||!|&|||^|<<|>>|~|sizeof()|&|*|?|:|,|]]></List>
+    </lib>
+  </Keywords>
+  <Rules>
+    
+    <Rule>
+      <Name>String</Name>
+      <Starter>"</Starter>
+      <Ender>"</Ender>
+      <Style>3</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+    </Rule>
+    <Rule>
+      <Name>Comment</Name>
+      <Starter>//</Starter>
+      <Ender/>
+      <Style>5</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>Yes</CloseOnEndLine>
+    </Rule>
+  </Rules>
+  <Numbers>
+    
+    
+    <Style>0</Style>
+  </Numbers>
+  <Example>
+    </Example>
+</XML>

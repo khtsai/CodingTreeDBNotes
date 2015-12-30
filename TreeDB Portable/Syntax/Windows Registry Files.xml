@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<XML>
+  
+  
+  
+  
+  
+  <Engine>
+    
+    
+    
+    
+    
+    <Author>SoftArtStudio</Author>
+    <URL>http://www.mytreedb.com</URL>
+    <Version>1.0</Version>
+  </Engine>
+  <General>
+    
+    
+    
+    
+    
+    <Name>Windows Registry Files</Name>
+    <Version>1.00</Version>
+    <Files>reg key</Files>
+    <Delimeters><![CDATA[ :;[]{}-+=()!@#$%^'",.<>?/|\]]></Delimeters>
+    <Case>Yes</Case>
+    <ColorBackground>$00EEF2F2</ColorBackground>
+    <ColorBorder>clSilver</ColorBorder>
+  </General>
+  <Styles>
+    
+    
+    
+    
+    
+    <font>
+      <Title>Default</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clWindowText</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>CLSIS</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clRed</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Roots</Title>
+      <Name>Courier New</Name>
+      <ColorFont>$0000AAD5</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Key path</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlue</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Numbers</Title>
+      <Name>Courier New</Name>
+      <ColorFont>$001313E1</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Types</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlue</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Header</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clGreen</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>String</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clGreen</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+  </Styles>
+  <Rules>
+    
+    
+    
+    
+    
+    <Rule>
+      <Name>Key path</Name>
+      <Starter>[</Starter>
+      <Ender>]</Ender>
+      <Style>3</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>No</Force>
+    </Rule>
+    <Rule>
+      <Name>CLSID</Name>
+      <Starter>{</Starter>
+      <Ender>}</Ender>
+      <Style>1</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>No</Force>
+    </Rule>
+    <Rule>
+      <Name>Hex</Name>
+      <Starter>=hex</Starter>
+      <Ender/>
+      <Style>5</Style>
+      <CloseOnDelimeter>Yes</CloseOnDelimeter>
+      <CloseOnEndLine>Yes</CloseOnEndLine>
+      <Force>No</Force>
+    </Rule>
+    <Rule>
+      <Name>DWord</Name>
+      <Starter>dword:</Starter>
+      <Ender/>
+      <Style>5</Style>
+      <CloseOnDelimeter>Yes</CloseOnDelimeter>
+      <CloseOnEndLine>Yes</CloseOnEndLine>
+      <Force>No</Force>
+    </Rule>
+    <Rule>
+      <Name>String</Name>
+      <Starter>"</Starter>
+      <Ender>"</Ender>
+      <Style>7</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+  </Rules>
+  <Example>
+    
+    
+    <i>Windows Registry Editor Version 5.00</i>
+    <i/>
+    <i>[HKEY_CURRENT_USER\Software\SoftArtStudio\TreeDBNotes Pro 2\Forms]</i>
+    <i/>
+    <i>[HKEY_CURRENT_USER\Software\SoftArtStudio\TreeDBNotes Pro 2\Forms\FormMain]</i>
+    <i>"FormTop"="8"</i>
+    <i>"FormLeft"="20"</i>
+    <i>"FormWidth"="1004"</i>
+    <i>"FormHeight"="719"</i>
+    <i>"FormState"="2"</i>
+    <i/>
+    <i>[HKEY_CURRENT_USER\Software\SoftArtStudio\TreeDBNotes Pro 2\Forms\Form_PIM]</i>
+    <i>"FormTop"="153"</i>
+    <i>"FormLeft"="69"</i>
+    <i>"FormWidth"="887"</i>
+    <i>"FormHeight"="457"</i>
+    <i/>
+    <i>[HKEY_CURRENT_USER\Software\SoftArtStudio\TreeDBNotes Pro 2\Forms\Templates]</i>
+    <i>"FormTop"="44"</i>
+    <i>"FormLeft"="44"</i>
+    <i>"FormWidth"="898"</i>
+    <i>"FormHeight"="628"</i>
+    <i/>
+    <i>[HKEY_CLASSES_ROOT]</i>
+    <i/>
+    <i>[HKEY_CLASSES_ROOT\CLSID]</i>
+    <i>@=""</i>
+    <i/>
+    <i>[HKEY_CLASSES_ROOT\CLSID\{B323F8E0-2E68-11D0-90EA-00AA0060F86C}]</i>
+    <i>@="StillImage"</i>
+    <i/>
+    <i>[HKEY_CLASSES_ROOT\CLSID\{B323F8E0-2E68-11D0-90EA-00AA0060F86C}\InProcServer32]</i>
+    <i>@="C:\\WINDOWS\\SYSTEM\\sti.dll"</i>
+    <i>"ThreadingModel"="Both"</i>
+  </Example>
+  <Author>
+    
+    
+    
+    
+    
+    <Copyright>http://www.mytreedb.com</Copyright>
+    <Email>admin@admin.com</Email>
+    <Name>http://www.mytreedb.com</Name>
+    <URL>http://www.mytreedb.com</URL>
+    <Notes>Delphi syntaxer</Notes>
+  </Author>
+  <Keywords>
+    
+    
+    
+    
+    
+    <lib>
+      <Title>Header</Title>
+      <Style>6</Style>
+      <List>REGEDIT4||</List>
+    </lib>
+    <lib>
+      <Title>Roots</Title>
+      <Style>5</Style>
+      <List>HKEY_CLASSES_ROOT|HKEY_USERS||</List>
+    </lib>
+  </Keywords>
+  <Numbers>
+    
+    
+    
+    
+    <Style>5</Style>
+  </Numbers>
+</XML>

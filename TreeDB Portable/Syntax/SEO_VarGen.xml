@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<XML>
+  <Engine>
+    <Author>SoftArtStudio</Author>
+    <URL>http://www.mytreedb.com</URL>
+    <Version>1.0</Version>
+  </Engine>
+  <General>
+    <Name>SEO Text Variants Generator</Name>
+    <Version>1</Version>
+    <Files>txt</Files>
+    <Delimeters/>
+    <Case>No</Case>
+    <ColorBackground>$00F5F4F3</ColorBackground>
+    <ColorBorder>$00C9BEBA</ColorBorder>
+  </General>
+  <Author>
+    <Copyright>TreeDBNotes team</Copyright>
+    <Email/>
+    <Name>http://www.mytreedb.com</Name>
+    <URL>http://www.mytreedb.com</URL>
+    <Notes/>
+  </Author>
+  <Styles>
+    <font>
+      <Title>Text</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clWindowText</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Boundaries</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlue</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Variants</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clRed</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+  </Styles>
+  <Keywords/>
+  <Rules>
+    <Rule>
+      <Name>Variants</Name>
+      <Starter>{</Starter>
+      <Ender>}</Ender>
+      <Style>2</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+  </Rules>
+  <Numbers>
+    <Style>0</Style>
+  </Numbers>
+  <Example>
+    <i>{I|We|You} have some {red|green|blue} markers.</i>
+  </Example>
+</XML>

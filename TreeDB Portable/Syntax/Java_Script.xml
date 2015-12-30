@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<XML>
+  
+  
+  
+  
+  
+  
+  <Engine>
+    
+    
+    
+    
+    
+    
+    <Author>SoftArtStudio</Author>
+    <URL>http://www.mytreedb.com</URL>
+    <Version>1.0</Version>
+  </Engine>
+  <General>
+    
+    
+    
+    
+    
+    
+    <Name>Java Script</Name>
+    <Version>1.00</Version>
+    <Files>JS</Files>
+    <Delimeters><![CDATA[ :;[]{}-+=()!@#$%^'",.<>?/|\]]></Delimeters>
+    <Case>Yes</Case>
+    <ColorBackground>$00F4F7F7</ColorBackground>
+    <ColorBorder>clSilver</ColorBorder>
+  </General>
+  <Author>
+    
+    
+    
+    
+    
+    
+    <Copyright>http://www.mytreedb.com</Copyright>
+    <Email/>
+    <Name>http://www.mytreedb.com</Name>
+    <URL>http://www.mytreedb.com</URL>
+    <Notes/>
+  </Author>
+  <Styles>
+    
+    
+    
+    
+    
+    
+    <font>
+      <Title>Normal text</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clWindowText</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Keywords</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clGreen</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Terms</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlue</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Events</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlue</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Numbers</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clRed</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Comments</Title>
+      <Name>Courier New</Name>
+      <ColorFont>$0000A9FB</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Operators</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clGreen</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>String</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clRed</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Marker</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clWindowText</ColorFont>
+      <ColorBack>clYellow</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+  </Styles>
+  <Keywords>
+    
+    
+    
+    
+    
+    
+    <lib>
+      <Title>Keywords</Title>
+      <Style>1</Style>
+      <List>E|back|big|abs|go|Area|PI|All|all|LN10|LN2|call|Embed|ceil|Date|bold|name|find|log|java|Image|tan|min|hash|atan2|atan|href|cos|click|acos|max|LOG10E|LOG2E|checked|clear|eval|src|home|self|Math|sin|sub|asin|Frame|left|align|Hidden|UTC|exp|match|Link|link|body|Radio|tags|join|embeds|blink|fixed|slice|escape|Global|open|charAt|top|URL|caller|Form|form|hspace|blur|pageX|pow|close|search|images|Float|pageY|reload|Object|watch|alert|sup|domain|index|concat|isNaN|small|height|cookie|closed|parse|Anchor|anchor|replace|value|Layer|action|getDate|getDay|border|host|frames|right|Array|next|Packages|logon|color|Select|select|Boolean|taint|focus|width|screen|filename|links|method|random|vspace|length|title|type|appName|floor|event|reset|Reset|port|Text|text|Applet|stop|target|Checkbox|encoding|forms|round|sort|bgColor|italics|Number|opener|selected|sqrt|SQRT2|parent|setDate|menubar|write|RegExp|fgColor|split|javaEnabled|indexOf|print|anchors|confirm|pathname|charCodeAt|Plugin|getTime|refresh|scroll|layers|input|getYear|style|strike|valueOf|moveBy|zIndex|Undefined|undefined|netscape|toolbar|Submit|submit|unescape|forward|bottom|display|String|Window|window|Location|location|complete|applets|Option|lowsrc|moveTo|unwatch|setTime|isFinite|Button|reverse|appCodeName|setYear|referrer|elements|Textarea|hostname|document|background|prompt|plugins|current|untaint|substr|status|FileUpload|writeln|platform|getMonth|Function|parseInt|SQRT1_2|MimeType|Infinity|scrollBy|getUTCDate|getUTCDay|taintEnabled|Navigator|navigator|defaultChecked|options|suffixes|linkColor|resizeBy|fromCharCode|userAgent|alinkColor|locationbar|handleEvent|getSeconds|parseFloat|getHours|fontsize|History|history|setMonth|protocol|scrollTo|Password|toSource|lastModified|resizeTo|innerHeight|fontcolor|Arguments|arguments|setUTCDate|scrollbars|personalbar|statusbar|toString|enabledPlugin|setSeconds|innerWidth|pageXOffset|previous|setHours|mimeTypes|pageYOffset|MIN_VALUE|lastIndexOf|substring|selectedIndex|defaultValue|MAX_VALUE|vlinkColor|description|getFullYear|getMinutes|appVersion|toLowerCase|outerHeight|visibility|toUpperCase|clearInterval|defaultSelected|clearTimeout|outerWidth|setFullYear|setMinutes|setInterval|routeEvent|getUTCMonth|getElementById|setTimeout|releaseEvents|getUTCSeconds|getUTCHours|setUTCMonth|toGMTString|getMilliseconds|toUTCString|setUTCSeconds|defaultStatus|captureEvents|setUTCHours|toLocaleString|getUTCFullYear|getUTCMinutes|setMilliseconds|setUTCFullYear|setUTCMinutes|getTimezoneOffset|getUTCMilliseconds|NEGATIVE_INFINITY|setUTCMilliseconds|POSITIVE_INFINITY|above|activeElement|altKey|apply|arity|availWidth|availTop|availLeft|availHeight|atob|assign|btoa|cancelBubble|borderWidths|below|charset|className|classes|children|clientInformation|clientX|clientY|colorDepth|compile|crypto|ctrlKey|contextual|contains|constructir|data|defaultCharset|disableExternalCapture|disablePrivilege|element|enableExternalCapture|exec|expando|FromPoint|enablePrivilege|getAttribute|fromElement|getClass|get|getMember|getSlot|getSelection|getWindow|id|ids|ignoreCase|inner|innerHTML|innerText|insertAdjacentText|insertAdjacentHTML|keyCode|lang|language|lastIndex|lastMatch|lastParen|leftContext|layerY|layerX|margins|modifiers|multiline|moveToAbsolute|moveAbove|moveBelow|navigate|offscreenBuffering|offset|offsetHeight|offsetLeft|offsetParent|offsetTop|offsetWidth||offsetY|offsetX|outerHTML|outerText|paddings|parentElement|parentLayer|parentWindow|preference|pop|pixelDepth|readyState|reason|push|returnValue|rightcontext|removeMember|removeAttribute|screenY|screenX|scrollIntoView|setAttribute|setDay|setMember|setSlot|setResizable|setHotkeys|setUTCMillseconds|siblingAbove|shiftKey|siblingBelow|setZOptions|shift|sourceIndex|splice|smallsort|source|sun|systemLanguage|srcFilter|srcElement|signText|tagName|toElement|test|userLanguage|unshift|which|x|y|HTMLElement|JavaArray|JavaClass|JavaObject|JavaPackage|JSObject|PrivilegeManager||||||||</List>
+    </lib>
+    <lib>
+      <Title>Terms</Title>
+      <Style>2</Style>
+      <List>if|do|in|case|NaN|char|catch|break|callee|for|else|var|new|false|int|package|long|void|delete|byte|enum|class|float|this|while|goto|double|Null|null|with|try|public|boolean|true|default|debugger|const|native|static|start|finally|super|short|interface|switch|throw|abstract|typeof|import|extends|private|return|export|continue|function|throws|instanceof|protected|transient|implements|prototype|synchronized|constructor|final|||</List>
+    </lib>
+    <lib>
+      <Title>Events</Title>
+      <Style>3</Style>
+      <List>onLoad|onClick|onChange|onBlur|onAbort|onDblClick|onFocus|onSelect|onUnload|onReset|onError|onKeyUp|onSubmit|onKeyDown|onMouseUp|onKeyPress|onMouseMove|onMouseOut|onMouseDown|onMouseOver|ondragdrop|onHelp|onmove|onresize|||</List>
+    </lib>
+    <lib>
+      <Title>Operators</Title>
+      <Style>6</Style>
+      <List><![CDATA[+|-|=|//|/|%|&|>|<|^|!|*|^|||]]></List>
+    </lib>
+  </Keywords>
+  <Rules>
+    
+    
+    
+    
+    
+    
+    <Rule>
+      <Name>String-2</Name>
+      <Starter>"</Starter>
+      <Ender>"</Ender>
+      <Style>7</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+    <Rule>
+      <Name>Comments-1</Name>
+      <Starter>//</Starter>
+      <Ender/>
+      <Style>5</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>Yes</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+    <Rule>
+      <Name>Comments-2</Name>
+      <Starter>/*</Starter>
+      <Ender>*/</Ender>
+      <Style>5</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+    <Rule>
+      <Name>Marker Begin</Name>
+      <Starter><![CDATA[<script]]></Starter>
+      <Ender><![CDATA[>]]></Ender>
+      <Style>8</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+    <Rule>
+      <Name>Marker end</Name>
+      <Starter><![CDATA[</script>]]></Starter>
+      <Ender/>
+      <Style>8</Style>
+      <CloseOnDelimeter>Yes</CloseOnDelimeter>
+      <CloseOnEndLine>Yes</CloseOnEndLine>
+      <Force>No</Force>
+    </Rule>
+  </Rules>
+  <Numbers>
+    
+    
+    
+    
+    
+    
+    <Style>4</Style>
+  </Numbers>
+  <Example>
+    
+    
+    
+    
+    <i>// JavaScript Example</i>
+    <i>function SampleExample()</i>
+    <i>{</i>
+    <i> var Radius = 1234;</i>
+    <i> var y;</i>
+    <i/>
+    <i><![CDATA[  for (var i = 0; i <= number; i++)]]></i>
+    <i>  {</i>
+    <i>    x++;</i>
+    <i>    x--;</i>
+    <i>    x += 1.0;</i>
+    <i>  }</i>
+    <i/>
+    <i>if( !document.cookie ) {</i>
+    <i>     document.cookie = "testCookie=1; path=/";</i>
+    <i>     this.c = document.cookie?1:0;</i>
+    <i>   }</i>
+    <i>}</i>
+    <i>body.onLoad = ShowDemo;</i>
+  </Example>
+</XML>

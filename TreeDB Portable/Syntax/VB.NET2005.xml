@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<XML>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <Engine>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <Author>SoftArtStudio</Author>
+    <URL>http://www.mytreedb.com</URL>
+    <Version>1.0</Version>
+  </Engine>
+  <General>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <Name>VB.NET 2005</Name>
+    <Version>1.00</Version>
+    <Files>bas</Files>
+    <Delimeters><![CDATA[ :;[]{}-+=()!@#$%^'",.<>?/|\]]></Delimeters>
+    <Case>No</Case>
+  </General>
+  <Author>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <Copyright/>
+    <Email/>
+    <Name/>
+    <URL/>
+    <Notes/>
+  </Author>
+  <Styles>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <font>
+      <Title>Normal text</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clWindowText</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Keywords</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlue</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Standart types</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlue</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>String</Title>
+      <Name>Courier New</Name>
+      <ColorFont>$000000C6</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Numbers</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlack</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Comments</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clGreen</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+  </Styles>
+  <Keywords>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <lib>
+      <Title>Types</Title>
+      <Style>3</Style>
+      <List>bool|byte|char|class|decimal|delegate|double|enum|float|int|interface|long|object|sbyte|short|string|struct|uint|ulong|ushort||||||||||||||</List>
+    </lib>
+    <lib>
+      <Title>Directives</Title>
+      <Style>2</Style>
+      <List>#Const|#Else|#ElseIf|#End|#If||||||||||||||||</List>
+    </lib>
+    <lib>
+      <Title>Operators</Title>
+      <Style>0</Style>
+      <List><![CDATA[?|=|//|%|>|<|!|:|-|&|&=|*|*=|/|/=|\|\=|^|^=|+|+=|=|-=||]]></List>
+    </lib>
+    <lib>
+      <Title>Keywords</Title>
+      <Style>1</Style>
+      <List>AddHandler|AddressOf|Alias|And|AndAlso|As|Boolean|ByRef|Byte|ByVal|Call|Case|Catch|CBool|CByte|CChar|CDate|CDec|CDbl|Char|CInt|Class|CLng|CObj|Const|Continue|CSByte|CShort|CSng|CStr|CType|CUInt|CULng|CUShort|Date|Decimal|Declare|Default|Delegate|Dim|DirectCast|Do|Double|Each|Else|ElseIf|End|EndIf|Enum|Erase|Error|Event|Exit|False|Finally|For|Friend|Function|Get|GetType|Global|GoSub|GoTo|Handles|If|Implements|Imports|In|Inherits|Integer|Interface|Is|IsNot|Let|Lib|Like|Long|Loop|Me|Mod|Module|MustInherit|MustOverride|MyBase|MyClass|Namespace|Narrowing|New|Next|Not|Nothing|NotInheritable|NotOverridable|Object|Of|On|Operator|Option|Optional|Or|OrElse|Overloads|Overridable|Overrides|ParamArray|Partial|Private|Property|Protected|Public|RaiseEvent|ReadOnly|ReDim|REM|RemoveHandler|Resume|Return|SByte|Select|Set|Shadows|Shared|Short|Single|Static|Step|Stop|String|Structure|Sub|SyncLock|Then|Throw|To|True|Try|TryCast|TypeOf|Variant|Wend|UInteger|ULong|UShort|Using|When|While|Widening|With|WithEvents|WriteOnly|Xor||</List>
+    </lib>
+  </Keywords>
+  <Rules>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <Rule>
+      <Name>String-1</Name>
+      <Starter>"</Starter>
+      <Ender>"</Ender>
+      <Style>0</Style>
+      <CloseOnDelimeter>Yes</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+    </Rule>
+    <Rule>
+      <Name>Comments-1</Name>
+      <Starter>'</Starter>
+      <Ender>'</Ender>
+      <Style>5</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>Yes</CloseOnEndLine>
+    </Rule>
+  </Rules>
+  <Numbers>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <Style>5</Style>
+  </Numbers>
+  <Example>
+    
+    
+    
+    </Example>
+</XML>

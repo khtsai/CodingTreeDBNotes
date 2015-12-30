@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<XML>
+  
+  
+  
+  
+  
+  <Engine>
+    
+    
+    
+    
+    
+    <Author>SoftArtStudio</Author>
+    <URL>http://www.mytreedb.com</URL>
+    <Version>1.0</Version>
+  </Engine>
+  <General>
+    
+    
+    
+    
+    
+    <Name>Flash 5</Name>
+    <Version>1.00</Version>
+    <Files>fas</Files>
+    <Delimeters><![CDATA[ <>&:';"[]{}-+=()!@#$%^,.?/|\]]></Delimeters>
+    <Case>No</Case>
+    <ColorBackground>$00EEF2F2</ColorBackground>
+    <ColorBorder>clSilver</ColorBorder>
+  </General>
+  <Styles>
+    
+    
+    
+    
+    
+    <font>
+      <Title>Normal text</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clWindowText</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>String</Title>
+      <Name>Courier New</Name>
+      <ColorFont>$000000C6</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Numbers</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clRed</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Comments</Title>
+      <Name>Courier New</Name>
+      <ColorFont>$0000A9FB</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Operators</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clTeal</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Properties</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlue</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Objects</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clFuchsia</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Methods</Title>
+      <Name>Courier New</Name>
+      <ColorFont>$002DB330</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Keys</Title>
+      <Name>Courier New</Name>
+      <ColorFont>$00F19949</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>FSCommands</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clFuchsia</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Directives</Title>
+      <Name>Courier New</Name>
+      <ColorFont>$009E9E5C</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Events</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clRed</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+  </Styles>
+  <Rules>
+    
+    
+    
+    
+    
+    <Rule>
+      <Name>String</Name>
+      <Starter>"</Starter>
+      <Ender>"</Ender>
+      <Style>1</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+    <Rule>
+      <Name>Comments-1</Name>
+      <Starter>//</Starter>
+      <Ender/>
+      <Style>3</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>Yes</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+    <Rule>
+      <Name>Comments-2</Name>
+      <Starter>/*</Starter>
+      <Ender>*/</Ender>
+      <Style>3</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+  </Rules>
+  <Example>
+    
+    
+    <i>/* Flash 5 Source code / Multiline comments */</i>
+    <i>var xSpeed:Number = 3;</i>
+    <i>var stageWidth:Number = 550;</i>
+    <i>var stageHeight:Number = 580;</i>
+    <i/>
+    <i>listA_ls.dataProvider = [{data:0, label:"January"}, </i>
+    <i> {data:1, label:"February"}, </i>
+    <i> {data:2, label:"March"}, </i>
+    <i> {data:3, label:"April"}, </i>
+    <i> {data:4, label:"May"}, </i>
+    <i> {data:5, label:"June"}, </i>
+    <i> {data:6, label:"July"}, </i>
+    <i> {data:7, label:"August"}, </i>
+    <i> {data:8, label:"September"}, </i>
+    <i> {data:9, label:"October"}, </i>
+    <i> {data:10, label:"November"}, </i>
+    <i> {data:11, label:"December"}];</i>
+    <i/>
+    <i/>
+    <i>/* define the function which will be used to sort the items in the lists. </i>
+    <i>   This function is used by both sort buttons on the Stage. */</i>
+    <i>function sortByMonth(a:Object, b:Object):Boolean </i>
+    <i> {</i>
+    <i><![CDATA[   return parseInt(a.data)>parseInt(b.data);]]></i>
+    <i> }</i>
+    <i/>
+    <i>mouseListener.onMouseMove = function() </i>
+    <i> {</i>
+    <i>   crosshair_mc._x = _xmouse;</i>
+    <i>   crosshair_mc._y = _ymouse;</i>
+    <i> };</i>
+  </Example>
+  <Author>
+    
+    
+    
+    
+    
+    <Copyright>http://www.mytreedb.com</Copyright>
+    <Email>admin@admin.com</Email>
+    <Name>http://www.mytreedb.com</Name>
+    <URL>http://www.mytreedb.com</URL>
+    <Notes>Delphi syntaxer</Notes>
+  </Author>
+  <Keywords>
+    
+    
+    
+    
+    
+    <lib>
+      <Title>Events</Title>
+      <Style>11</Style>
+      <List>enterFrame|load|data|dragOut|dragOver|mouseDown|mouseUp|mouseMove|keyDown|keyUp|keyPress|unload|press|release|releaseOutside|rollOver|rollOut||</List>
+    </lib>
+    <lib>
+      <Title>Directives</Title>
+      <Style>10</Style>
+      <List>#include||</List>
+    </lib>
+    <lib>
+      <Title>FSCommands</Title>
+      <Style>9</Style>
+      <List>allowscale|exec|fullscreen|quit|showmenu|trapallkeys||</List>
+    </lib>
+    <lib>
+      <Title>Methods</Title>
+      <Style>7</Style>
+      <List>__proto__|abs|acos|appendChild|arguments|asin|atan|atan2|attributes|attachMovie|attachSound|break|call|continue|callee|ceil|charAt|charCodeAt|childNodes|chr|cloneNode|close|concat|connect|constructor|contentType|cos|createElement|createTextNode|docTypeDecl|duplicateMovieClip|delete|do|E|escape|eval|exp|else|firstChild|floor|fromCharCode|for|fscommand|function|getAscii|getBeginIndex|getBounds|getBytesLoaded|getBytesTotal|getCaretIndex|getCode|getDate|getDay|getEndIndex|getFocus|getFullYear|getHours|getMilliseconds|getMinutes|getMonth|getPan|getRGB|getSeconds|getTime|getTimezoneOffset|getTransform|getURL|getUTCDate|getUTCDay|getUTCFullYear|getUTCHours|getUTCMilliseconds|getUTCMinutes|getUTCMonth|getUTCSeconds|getVolume|getYear|globalToLocal|gotoAndPlay|gotoAndStop|getProperty|getTimer|getVersion|hasChildNodes|hide|hitTest|indexOf|insertBefore|isDown|isToggled|int|isFinite|isNaN|if|ifFrameLoaded|in|ignoreWhite|join|lastChild|lastIndexOf|length|load|loaded|loadMovie|loadMovieNum|loadVariblesNum|loadVariables|localToGlobal|log|LN2|LN10|LOG2E|LOG10E|MAX_VALUE|MIN_VALUE|min|max|maxscroll|mbchr|mblength|mbord|mbsubstring|NEGATIVE_INFINITY|newline|nextFrame|nextSibling|nodeName|nodeType|nodeValue|nextFrame|nextScene|OnLoad|On|onClose|onConnect|onXML|ord|on|onClipEvent|onData|onLoad|parseFloat|parseInt|parentNode|parseXML|play|pop|pow|prevFrame|previousSibling|push|play|prevFrame|prevScene|print|printAsBitmap|printAsBitmapNum|printNum|PI|POSITIVE_INFINITY|random|removeMovieClip|removeNode|reverse|round|return|SQRT1_2|SQRT2|scroll|send|sendAndLoad|setDate|setFocus|setFullYear|setHours|setMilliseconds|setMinutes|setMonth|setPan|setRGB|setSeconds|setSelection|setTime|setTransform|setUTCDate|setUTCFullYear|setUTCHours|setUTCMilliseconds|setUTCMinutes|setUTCMonth|setUTCSeconds|setVolume|setYear|shift|show|sin|slice|sort|splice|split|sqrt|start|startDrag|status|stop|stopDrag|substr|substring|swapDepths|set|setProperty|stop|stopAllSounds|tan|targetPath|toLowerCase|toString|toUpperCase|tellTarget|toggleHighQuality|trace|updateAfterEvent|unescape|unloadMovie|unloadMovieNum|unshift|UTC|valueOf|var|while|with|xmlDecl||</List>
+    </lib>
+    <lib>
+      <Title>Objects</Title>
+      <Style>6</Style>
+      <List>Array|Boolean|Color|Date|Key|Math|Mouse|MovieClip|Number|Object|Selection|Sound|String|XML|XMLSocket||</List>
+    </lib>
+    <lib>
+      <Title>Properties</Title>
+      <Style>5</Style>
+      <List>_alpha|_currentframe|_droptarget|_focusrect|_framesloaded|_height|_highquality|_name|_parent|_quality|_root|_rotation|_soundbuftime|_target|_totalframes|_url|_visible|_width|_x|_xmouse|_xscale|_y|_ymouse|_yscale|**|_level|Infinity|-Infinity|NaN||</List>
+    </lib>
+    <lib>
+      <Title>Operators</Title>
+      <Style>4</Style>
+      <List><![CDATA[-|--|-=|+|++|+=|!|!=|%|%=|&|&&|&=|*|*=|?|.|:|//|/|^|^=|||||||=|~|<|<<|<<=|<=|<>|=|==|>|>>|>>=|>>>|>>>=|$version|add|and|eq|ge|gt|le|lt|ne|new|not|null|or|this|typeof|void||]]></List>
+    </lib>
+    <lib>
+      <Title>Keys</Title>
+      <Style>8</Style>
+      <List>BACKSPACE|CAPSLOCK|CONTROL|DELETEKEY|DOWN|END|ENTER|ESCAPE|HOME|INSERT|LEFT|PGDN|PGUP|RIGHT|SHIFT|SPACE|TAB|UP||</List>
+    </lib>
+  </Keywords>
+  <Numbers>
+    
+    
+    
+    
+    <Style>2</Style>
+  </Numbers>
+</XML>

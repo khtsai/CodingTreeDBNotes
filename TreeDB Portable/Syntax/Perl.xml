@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<XML>
+  
+  
+  
+  <Engine>
+    
+    
+    
+    <Author>SoftArtStudio</Author>
+    <URL>http://www.mytreedb.com</URL>
+    <Version>1.0</Version>
+  </Engine>
+  <General>
+    
+    
+    
+    <Name>Perl CGI</Name>
+    <Version>1.00</Version>
+    <Files>perl cgi</Files>
+    <Delimeters><![CDATA[ '"-+;{}[]"()*&^%$#@<>:,./?!|\~`]]></Delimeters>
+    <Case>Yes</Case>
+    <ColorBackground>$00F4F7F7</ColorBackground>
+    <ColorBorder>clSilver</ColorBorder>
+  </General>
+  <Author>
+    
+    
+    
+    <Copyright>http://www.mytreedb.com</Copyright>
+    <Email/>
+    <Name>http://www.mytreedb.com</Name>
+    <URL>http://www.mytreedb.com</URL>
+    <Notes>TreeDBNotes Pro Syntax: Perl</Notes>
+  </Author>
+  <Styles>
+    
+    
+    
+    <font>
+      <Title>Normal text</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clWindowText</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Keywords</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlue</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Standart types</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlue</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>String</Title>
+      <Name>Courier New</Name>
+      <ColorFont>$000000C6</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Numbers</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clRed</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Comments</Title>
+      <Name>Courier New</Name>
+      <ColorFont>$0000A9FB</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>perl tags</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clRed</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Language structure</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clGreen</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+  </Styles>
+  <Keywords>
+    
+    
+    
+    <lib>
+      <Title>Statements</Title>
+      <Style>2</Style>
+      <List>__DATA__|__END__|__FILE__|__LINE__|continue|do|else|elsif|for|foreach|goto|if|last|local|my|next|no|package|redo|return|require|sub|until|unless|use|while||</List>
+    </lib>
+    <lib>
+      <Title>Functions</Title>
+      <Style>1</Style>
+      <List>accept|alarm|atan2|bind|binmode|bless|caller|chdir|chmod|chomp|chop|chown|chr|chroot|close|closedir|connect|cos|crypt|dbmclose|dbmopen|defined|delete|die|dump|each|endgrent|endhostent|endnetent|endprotoent|endpwent|endservent|eof|eval|exec|exit|exp|exists|fcntl|fileno|flock|fork|formline|format|getc|getgrent|getgrgid|getgrname|gethostbyaddr|gethostbyname|gethostent|getlogin|getnetbyaddr|getnetbyname|getnetent|getpeername|getpgrp|getppid|getpriority|getprotobyname|getprotobynumber|getprotoent|getpwent|getpwnam|getpwuid|getservbyname|getservbyport|getservent|getsockname|getsockopt|glob|gmtime|grep|hex|index|int|ioctl|join|keys|kill|lc|lcfirst|length|link|listen|localtime|log|lstat|map|mkdir|msgctl|msgget|msgrcv|msgsnd|oct|open|opendir|ord|pack|pipe|pop|pos|print|printf|push|quotemeta|rand|read|readdir|readline|readlink|recv|ref|rename|reset|reverse|rewinddir|rindex|rmdir|scalar|seek|seekdir|select|semctl|semgett|semop|send|setgrent|sethostent|setnetent|setpgrp|setpriority|setprotoent|setpwent|setservent|setsockopt|shift|shmctl|shmget|shmread|shmwrite|shutdown|sin|sleep|socket|socketpair|sort|splice|split|sprintf|sqrt|srand|stat|study|substr|symlink|syscall|sysopen|sysread|system|syswrite|tell|telldir|tie|tied|time|times|truncate|uc|ucfirst|umask|undef|unlink|unpack|unshift|utime|values|vec|wait|waitpid|wantarray|warn|write||</List>
+    </lib>
+    <lib>
+      <Title>Ident</Title>
+      <Style>2</Style>
+      <List>a|autoEscape|auth_type|address|button|br|b|caption|checkbox_group|checkbox|compile|cookie|defaults|delete_all|div|end_html|em|endform|escape|escape_HTML|end_h1|end_table|end_ul|filefield|font|header|hr|h1|h2|h3|h4|h5|hidden|http|https|img|isindex|image_button|li|multipart_init|multipart_start|multipart_end|ol|p|param|param_fetch|password_field|popup_menu|path_info|pre|query_string|radio_group|redirect|raw_cookie|referer|remote_addr|remote_indent|remote_host|remote_user|request_method|start_html|self_url|strong|startform|start_form|start_multipart_form|scrolling_list|submit|script_name|server_name|server_software|server_port|span|start_h1|start_table|start_ul|textfield|table|td|th|textarea|tmpFileName|Tr|url|url_param|use_named_parameters|ul|upload|uploadInfo|unescape|unescapeHTML|user_agent|user_name|virtual_host||</List>
+    </lib>
+    <lib>
+      <Title>Core</Title>
+      <Style>7</Style>
+      <List>AUTOLOAD|and|BEGIN|CORE|cmp|DESTROY|eq|END|ge|gt|le|lt|ne|not|m|or|q|qq|qw|qx|SUPER|s|tr|UNIVERSAL|x|xor|y||</List>
+    </lib>
+    <lib>
+      <Title>@</Title>
+      <Style>1</Style>
+      <List>$@|@||</List>
+    </lib>
+  </Keywords>
+  <Rules>
+    
+    
+    
+    <Rule>
+      <Name>Variables-$</Name>
+      <Starter>$</Starter>
+      <Ender/>
+      <Style>2</Style>
+      <CloseOnDelimeter>Yes</CloseOnDelimeter>
+      <CloseOnEndLine>Yes</CloseOnEndLine>
+      <Force>No</Force>
+    </Rule>
+    <Rule>
+      <Name>String-1</Name>
+      <Starter>'</Starter>
+      <Ender>'</Ender>
+      <Style>3</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+    <Rule>
+      <Name>String-2</Name>
+      <Starter>"</Starter>
+      <Ender>"</Ender>
+      <Style>3</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+    <Rule>
+      <Name>Comments-1</Name>
+      <Starter>#</Starter>
+      <Ender/>
+      <Style>5</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>Yes</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+  </Rules>
+  <Numbers>
+    
+    
+    
+    <Style>4</Style>
+  </Numbers>
+  <Example>
+    
+    
+    <i>#!/bin/perl</i>
+    <i>require "cgi-lib.pl";</i>
+    <i>use sigtrap;</i>
+    <i>do 'envars.pl';</i>
+    <i>$_ = $password1;</i>
+    <i>sub WriteBack {</i>
+    <i>        while ($_ ne "fred")    {</i>
+    <i>                sleep 5;</i>
+    <i>        }</i>
+    <i>}</i>
+  </Example>
+</XML>

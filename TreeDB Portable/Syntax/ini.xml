@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<XML>
+  
+  
+  
+  
+  
+  <Engine>
+    
+    
+    
+    
+    
+    <Author>SoftArtStudio</Author>
+    <URL>http://www.mytreedb.com</URL>
+    <Version>1.0</Version>
+  </Engine>
+  <General>
+    
+    
+    
+    
+    
+    <Name>INI</Name>
+    <Version>1.00</Version>
+    <Files>ini</Files>
+    <Delimeters><![CDATA[ <>&:';"[]{}-+=()!@#$%^,.?/|\]]></Delimeters>
+    <Case>No</Case>
+    <ColorBackground>$00EEF2F2</ColorBackground>
+    <ColorBorder>clSilver</ColorBorder>
+  </General>
+  <Styles>
+    
+    
+    
+    
+    
+    <font>
+      <Title>Normal text</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clWindowText</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Keywords</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlue</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Standart types</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlue</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>String</Title>
+      <Name>Courier New</Name>
+      <ColorFont>$000000C6</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Numbers</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clRed</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Comments</Title>
+      <Name>Courier New</Name>
+      <ColorFont>$0000A9FB</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+  </Styles>
+  <Rules>
+    
+    
+    
+    
+    
+    <Rule>
+      <Name>Sections</Name>
+      <Starter>[</Starter>
+      <Ender>]</Ender>
+      <Style>1</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>No</Force>
+    </Rule>
+    <Rule>
+      <Name>Value</Name>
+      <Starter>=</Starter>
+      <Ender/>
+      <Style>3</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>Yes</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+    <Rule>
+      <Name>Comments</Name>
+      <Starter>;</Starter>
+      <Ender/>
+      <Style>5</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>Yes</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+  </Rules>
+  <Example>
+    
+    
+    <i>[treedbnotes pro.tdb]</i>
+    <i>NodesID=2/135,4/136,3/131</i>
+    <i>NodesID=1/80,2/69</i>
+    <i>[programming.tdb]</i>
+    <i>NodesID=1/117,2/23,3/165,4/75,7/460,8/479,6/313,5/174</i>
+    <i>[Form_PIM]</i>
+    <i>PanelRight=409</i>
+    <i>TabIndex=0</i>
+    <i>[Templates]</i>
+    <i>PanelLeft=229</i>
+    <i>LastFolder=D:\soft\TreeDBNotes Pro 2\Templates</i>
+    <i>PanelFolders=229</i>
+    <i/>
+    <i>;The Access is computed as follows:</i>
+    <i>;  (1) First take the access of the connect section.</i>
+    <i>;  (2) If a user entry is found, it will override.</i>
+    <i/>
+    <i>[connect default]</i>
+    <i>;If we want to disable unknown connect values, we set Access to NoAccess</i>
+    <i>Access=NoAccess</i>
+    <i/>
+    <i>[sql default]</i>
+    <i>;If we want to disable unknown sql values, we set Sql to an invalid query.</i>
+    <i>Sql=" "</i>
+  </Example>
+  <Author>
+    
+    
+    
+    
+    
+    <Copyright>http://www.mytreedb.com</Copyright>
+    <Email>admin@admin.com</Email>
+    <Name>http://www.mytreedb.com</Name>
+    <URL>http://www.mytreedb.com</URL>
+    <Notes>Delphi syntaxer</Notes>
+  </Author>
+  <Keywords>
+    
+    
+    
+    </Keywords>
+  <Numbers>
+    
+    
+    
+    
+    <Style>4</Style>
+  </Numbers>
+</XML>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<XML>
+  <FontStyles>
+    <item>
+      <Title>Default</Title>
+      <Size>8</Size>
+    </item>
+    <item>
+      <Title>Normal 2</Title>
+      <FontName>Times</FontName>
+      <Size>12</Size>
+      <Color>0</Color>
+    </item>
+    <item>
+      <Title>Caption 1</Title>
+      <Size>16</Size>
+      <Color>7619634</Color>
+    </item>
+    <item>
+      <Title>Caption 2</Title>
+      <Size>14</Size>
+      <Color>1930781</Color>
+    </item>
+    <item>
+      <Title>Caption 3</Title>
+      <Size>12</Size>
+      <Color>270259</Color>
+      <Bold>True</Bold>
+    </item>
+    <item>
+      <Title>Source Code</Title>
+      <FontName>Courier New</FontName>
+    </item>
+    <item>
+      <Title>Comments</Title>
+      <Color>10399156</Color>
+      <Italic>True</Italic>
+    </item>
+    <item>
+      <Title>Marked</Title>
+      <Color>0</Color>
+      <BckColor>11599795</BckColor>
+    </item>
+  </FontStyles>
+</XML>

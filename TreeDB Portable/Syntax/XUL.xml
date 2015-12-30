@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<XML>
+  
+  
+  
+  
+  
+  
+  
+  <Engine>
+    
+    
+    
+    
+    
+    
+    
+    <Author>SoftArtStudio</Author>
+    <URL>http://www.mytreedb.com</URL>
+    <Version>1.0</Version>
+  </Engine>
+  <General>
+    
+    
+    
+    
+    
+    
+    
+    <Name>XML - Common</Name>
+    <Version>1.0</Version>
+    <Files>xml</Files>
+    <Delimeters><![CDATA[ <>&:';"[]{}-+=()!@#$%^,.?/|\]]></Delimeters>
+    <Case>No</Case>
+    <ColorBackground>$00EEF2F2</ColorBackground>
+    <ColorBorder>clSilver</ColorBorder>
+  </General>
+  <Author>
+    
+    
+    
+    
+    
+    
+    
+    <Copyright>www.mytreedb.com</Copyright>
+    <Email/>
+    <Name>www.mytreedb.com</Name>
+    <URL>www.mytreedb.com</URL>
+    <Notes/>
+  </Author>
+  <Styles>
+    
+    
+    
+    
+    
+    
+    
+    <font>
+      <Title>Normal</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clWindowText</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>String</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clRed</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Tags</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlue</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Comments</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clGreen</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>marked</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clGreen</ColorFont>
+      <ColorBack>clYellow</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Keywords</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlue</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Attributes</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clGreen</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+  </Styles>
+  <Keywords>
+    
+    
+    
+    
+    
+    </Keywords>
+  <Rules>
+    
+    
+    
+    
+    
+    
+    
+    <Rule>
+      <Name>tags</Name>
+      <Starter><![CDATA[<]]></Starter>
+      <Ender><![CDATA[>]]></Ender>
+      <Style>2</Style>
+      <CloseOnDelimeter>Yes</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>No</Force>
+    </Rule>
+    <Rule>
+      <Name>tags</Name>
+      <Starter><![CDATA[</]]></Starter>
+      <Ender><![CDATA[>]]></Ender>
+      <Style>2</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>No</Force>
+    </Rule>
+    <Rule>
+      <Name>string</Name>
+      <Starter>"</Starter>
+      <Ender>"</Ender>
+      <Style>1</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+    <Rule>
+      <Name>Comments</Name>
+      <Starter><![CDATA[<!--]]></Starter>
+      <Ender><![CDATA[-->]]></Ender>
+      <Style>3</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+    <Rule>
+      <Name>special</Name>
+      <Starter><![CDATA[<?xml]]></Starter>
+      <Ender><![CDATA[?>]]></Ender>
+      <Style>4</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+  </Rules>
+  <Numbers>
+    
+    
+    
+    
+    
+    
+    
+    <Style>2</Style>
+  </Numbers>
+  <Example>
+    
+    
+    
+    
+    
+    
+    
+    <i><![CDATA[<?xml version="1.0" encoding="ISO-8859-1"?>]]></i>
+    <i/>
+    <i><![CDATA[<shiporder orderid="889923"]]></i>
+    <i>xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"</i>
+    <i><![CDATA[xsi:noNamespaceSchemaLocation="shiporder.xsd">]]></i>
+    <i><![CDATA[  <orderperson id="12345">John Smith</orderperson>]]></i>
+    <i><![CDATA[  <shipto>]]></i>
+    <i><![CDATA[    <name>Ola Nordmann</name>]]></i>
+    <i><![CDATA[    <address>Langgt 23</address>]]></i>
+    <i><![CDATA[    <city>4000 Stavanger</city>]]></i>
+    <i><![CDATA[    <country>Norway</country>]]></i>
+    <i><![CDATA[  </shipto>]]></i>
+    <i><![CDATA[  <item>]]></i>
+    <i><![CDATA[    <title>Empire Burlesque</title>]]></i>
+    <i><![CDATA[    <note>Special Edition</note>]]></i>
+    <i><![CDATA[    <quantity>1</quantity>]]></i>
+    <i><![CDATA[    <price>10.90</price>]]></i>
+    <i><![CDATA[  </item>]]></i>
+    <i><![CDATA[  <item>]]></i>
+    <i><![CDATA[    <title>Hide your heart</title>]]></i>
+    <i><![CDATA[    <quantity>1</quantity>]]></i>
+    <i><![CDATA[    <price>9.90</price>]]></i>
+    <i><![CDATA[  </item>]]></i>
+    <i><![CDATA[</shiporder>]]></i>
+  </Example>
+</XML>

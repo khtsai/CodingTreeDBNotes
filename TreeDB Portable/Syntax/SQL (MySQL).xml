@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<XML>
+  
+  
+  
+  
+  
+  <Engine>
+    
+    
+    
+    
+    
+    <Author>SoftArtStudio</Author>
+    <URL>http://www.mytreedb.com</URL>
+    <Version>1.0</Version>
+  </Engine>
+  <General>
+    
+    
+    
+    
+    
+    <Name>SQL (MySQL)</Name>
+    <Version>1.00</Version>
+    <Files>sql txt</Files>
+    <Delimeters><![CDATA[ :;[]{}-+=()!@#$%^'",.<>?/|\]]></Delimeters>
+    <Case>No</Case>
+    <ColorBackground>$00EEF2F2</ColorBackground>
+    <ColorBorder>clSilver</ColorBorder>
+  </General>
+  <Styles>
+    
+    
+    
+    
+    
+    <font>
+      <Title>Normal text</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clWindowText</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>SQL</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlue</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>MySQL</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlue</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>String</Title>
+      <Name>Courier New</Name>
+      <ColorFont>$000000C6</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Numbers</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clRed</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Comments</Title>
+      <Name>Courier New</Name>
+      <ColorFont>$0000A9FB</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Types</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clGreen</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Functions</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clPurple</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+  </Styles>
+  <Rules>
+    
+    
+    
+    
+    
+    <Rule>
+      <Name>String-1</Name>
+      <Starter>'</Starter>
+      <Ender>'</Ender>
+      <Style>3</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+    <Rule>
+      <Name>String-2</Name>
+      <Starter>"</Starter>
+      <Ender>"</Ender>
+      <Style>3</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+    <Rule>
+      <Name>Comments-1</Name>
+      <Starter>--</Starter>
+      <Ender/>
+      <Style>5</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>Yes</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+    <Rule>
+      <Name>Comments-2</Name>
+      <Starter>/*</Starter>
+      <Ender>*/</Ender>
+      <Style>5</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+    <Rule>
+      <Name>Comments-3</Name>
+      <Starter>#</Starter>
+      <Ender/>
+      <Style>5</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>Yes</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+  </Rules>
+  <Example>
+    
+    
+    <i>-- </i>
+    <i>-- Table structure for table `cms_blocks`</i>
+    <i>-- </i>
+    <i>DROP TABLE IF EXISTS `cms_blocks`;</i>
+    <i>CREATE TABLE IF NOT EXISTS `cms_blocks` (</i>
+    <i>  `id` int(11) NOT NULL auto_increment,</i>
+    <i>  `bPage` int(11) NOT NULL default '0',</i>
+    <i>  `bClass` varchar(50) NOT NULL default '',</i>
+    <i>  `bType` tinyint(4) NOT NULL default '0',</i>
+    <i>  `bOptions` text NOT NULL,</i>
+    <i>  `bValue` text NOT NULL,</i>
+    <i>  `bTitle` varchar(100) NOT NULL default '',</i>
+    <i>  `bOrder` smallint(6) NOT NULL default '0',</i>
+    <i>  `bPos` char(1) NOT NULL default 'C',</i>
+    <i>  `bStatus` tinyint(4) NOT NULL default '0',</i>
+    <i>  PRIMARY KEY  (`id`)</i>
+    <i>) ENGINE=MyISAM DEFAULT CHARSET=ascii AUTO_INCREMENT=38 ;</i>
+    <i/>
+    <i># Example-1</i>
+    <i>drop table test1;</i>
+    <i>create table test1 (id AutoInc, num Integer);</i>
+    <i>insert into test1 (num) values (5);</i>
+    <i>insert into test1 (num) values (7);</i>
+    <i>insert into test1 (num) values (5);</i>
+    <i>insert into test1 (num) values (4);</i>
+    <i>alter table test1 add (num2 Integer);</i>
+    <i>select * from test1 order by num desc,id;</i>
+    <i/>
+    <i>/* </i>
+    <i>----------------------------------------------</i>
+    <i>Example-2</i>
+    <i>----------------------------------------------</i>
+    <i>*/</i>
+    <i>SELECT Contact, Customer.CustNo, Company, Orders.OrderNo, Orders.CustNo</i>
+    <i>FROM Customer INNER JOIN Orders Using (CustNo)</i>
+    <i>WHERE Contact LIKE 'E%'</i>
+    <i>ORDER BY Contact,Orders.CustNo,Orders.OrderNo</i>
+  </Example>
+  <Author>
+    
+    
+    
+    
+    
+    <Copyright>http://www.mytreedb.com</Copyright>
+    <Email>admin@admin.com</Email>
+    <Name>http://www.mytreedb.com</Name>
+    <URL>http://www.mytreedb.com</URL>
+    <Notes>SQL (MySQL)</Notes>
+  </Author>
+  <Keywords>
+    
+    
+    
+    
+    
+    <lib>
+      <Title>SQL</Title>
+      <Style>1</Style>
+      <List>active|after|all|alter|and|any|as|asc|ascending|at|auto|base_name|before|begin|between|by|cache|cast|check|column|commit|committed|computed|conditional|constraint|containing|count|create|current|cursor|database|debug|declare|default|delete|desc|descending|distinct|do|domain|drop|else|end|entry_point|escape|exception|execute|exists|exit|external|extract|filter|for|foreign|from|full|function|generator|grant|group|having|if|in|inactive|index|inner|insert|into|is|isolation|join|key|left|level|like|merge|names|no|not|null|of|on|only|or|order|outer|parameter|password|plan|position|primary|privileges|procedure|protected|read|retain|returns|revoke|right|rollback|schema|select|set|shadow|shared|snapshot|some|suspend|table|then|to|transaction|trigger|uncommitted|union|unique|update|user|using|values|view|wait|when|where|while|with|work||</List>
+    </lib>
+    <lib>
+      <Title>MySQL</Title>
+      <Style>2</Style>
+      <List>ACTION|AFTER|AGGREGATE|ALL|ALTER|AS|ASC|AUTO_INCREMENT|AVG_ROW_LENGTH|BETWEEN|BINARY|BIT|BOOL|BOTH|BY|CASCADE|CHANGE|CHARACTER|CHECK|CHECKSUM|COLUMN|COLUMNS|COMMENT|CONSTRAINT|CREATE|CROSS|DATA|DATABASES|DEC|DEFAULT|DELAYED|DELAY_KEY_WRITE|DELETE|DESC|DESCRIBE|DISTINCT|DISTINCTROW|DROP|ELSE|ENCLOSED|END|ESCAPE|ESCAPED|EXISTS|EXPLAIN|FIELDS|FIRST|FLOAT4|FLOAT8|FLUSH|FOR|FOREIGN|FROM|FULL|FUNCTION|GLOBAL|GRANT|GRANTS|GROUP|HAVING|HEAP|HIGH_PRIORITY|HOSTS|IDENTIFIED|IGNORE|INFILE|INNER|INT1|INT2|INT3|INT4|INT8|INTO|IS|ISAM|JOIN|KEY|KEYS|KILL|LEADING|LIKE|LIMIT|LINES|LOAD|LOCAL|LOGS|LONG|LOW_PRIORITY|MATCH|MAX_ROWS|MIDDLEINT|MIN_ROWS|MODIFY|MYISAM|NATURAL|NO|NOT|OPTIMIZE|OPTION|OPTIONALLY|ORDER|OUTER|OUTFILE|PACK_KEYS|PARTIAL|PRIMARY|PRIVILEGES|PROCEDURE|PROCESS|PROCESSLIST|READ|REFERENCES|REGEXP|RELOAD|RENAME|RESTRICT|RETURNS|REVOKE|RLIKE|ROW|ROWS|SELECT|SHOW|SHUTDOWN|SONAME|SQL_BIG_RESULT|SQL_BIG_SELECTS|SQL_BIG_TABLES|SQL_LOG_OFF|SQL_LOG_UPDATE|SQL_LOW_PRIORITY_UPDATES|SQL_SELECT_LIMIT|SQL_SMALL_RESULT|SQL_WARNINGS|STARTING|STATUS|STRAIGHT_JOIN|TABLE|TABLES|TEMPORARY|TERMINATED|THEN|TO|TRAILING|TYPE|UNIQUE|UNLOCK|UNSIGNED|UPDATE|USAGE|USE|USING|VALUES|VARBINARY|VARCHAR|VARIABLES|VARYING|WHERE|WITH|WRITE|ZEROFILL|add|auto_increment|binary|both|columns|cross|delayed|describe|explain|databases|escaped|flush|fields|field|enclosed|data|change|identified|ignore|infile|keys|kill|leading|limit|lines|load|local|low_priority|lock|modify|natural|optimize|option|optionally|outfile|proceedure|references|soname|rename|regexp|replace|rlike|straight_join|status|trailing|use|unsigned|variables|unlock|show|teminated|tables|write|zerofill|xor||</List>
+    </lib>
+    <lib>
+      <Title>Types</Title>
+      <Style>6</Style>
+      <List>TINYINT|SMALLINT|MEDIUMINT|INT|INTEGER|BIGINT|FLOAT|DOUBLE|REAL|DECIMAL|NUMERIC|DATE|DATETIME|TIMESTAMP|TIME|YEAR|CHAR|NATIONAL|TINYBLOB|TINYTEXT|TEXT|MEDIUMBLOB|MEDIUMTEXT|LONGBLOB|LONGTEXT|ENUM|SET|blob|doubleprecision|float4|float8|int1|int2|int3|int4|int8|middleint|long|varchar|varying|varbinary||</List>
+    </lib>
+    <lib>
+      <Title>Functions</Title>
+      <Style>7</Style>
+      <List>ABS|ACOS|ACSII|ADDDATE|ASIN|ATAN|ATAN2|AVG|BENCHMARK|BIN|BIT_AND|BIT_COUNT|BIT_OR|CASE|CEILING|CHARACTOR_LENGTH|CHAR_LENGTH|COALESCE|CONCAT|CONV|COS|COT|COUNT|CURDATE|CURRENT_DATE|CURRENT_TIME|CURRENT_TIMESTAMP|CURTIME|DATABASE|DATE_ADD|DATE_FORMAT|DATE_SUB|DAY|DAYNAME|DAYOFMONTH|DAYOFWEEK|DAYOFYEAR|DAY_HOUR|DAY_MINUTE|DAY_SECOND|DECODE|DEGREES|ELT|ENCODE|ENCRYPT|EXP|EXPORT_SET|FIELD|FIND_IN_SET|FLOOR|FORMAT|FROM_DAYS|FROM_UNIXTIME|GET_LOCK|GREATEST|HEX|HOUR|HOUR_MINUTE|HOUR_SECOND|IF|IFNULL|IN|INSERT|INSTR|INTERVAL|ISNULL|LAST_INSERT_ID|LCASE|LEAST|LEFT|LENGTH|LOAD_FILE|LOCATE|LOG|LOG10|LOWER|LPAD|LTRIM|MAKE_SET|MAX|MD5|MID|MIN|MINUTE|MINUTE_SECOND|MOD|MONTH|MONTHNAME|NOW|OCT|OCTET_LENGTH|ORD|PASSWORD|PERIOD_ADD|PERIOD_DIFF|PI|POSITION|POW|POWER|QUARTER|RADIANS|RAND|RELEASE_LOCK|REPEAT|REPLACE|REVERSE|RIGHT|ROUND|RPAD|RTRIM|SECOND|SEC_TO_TIME|SESSION_USER|SIGN|SIN|SOUNDEX|SPACE|SQRT|STD|STDDEV|STRCMP|SUBDATE|SUBSTRING|SUBSTRING_INDEX|SUM|SYSDATE|SYSTEM_USER|TAN|TIME_FORMAT|TIME_TO_SEC|TO_DAYS|TRIM|TRUNCATE|UCASE|UNIX_TIMESTAMP|UPPER|USER|VERSION|WEEK|WEEKDAY|WHEN|YEARWEEK|YEAR_MONTH|ascii|char_lengh|character_length|year||</List>
+    </lib>
+  </Keywords>
+  <Numbers>
+    
+    
+    
+    
+    <Style>4</Style>
+  </Numbers>
+</XML>

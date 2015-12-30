@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<XML>
+  
+  
+  
+  
+  
+  
+  <Engine>
+    
+    
+    
+    
+    
+    
+    <Author>SoftArtStudio</Author>
+    <URL>http://www.mytreedb.com</URL>
+    <Version>1.0</Version>
+  </Engine>
+  <General>
+    
+    
+    
+    
+    
+    
+    <Name>HTML</Name>
+    <Version>1.00</Version>
+    <Files>htm html shtml</Files>
+    <Delimeters><![CDATA[ <>&:';"[]{}-+=()!@#$%^,.?/|\]]></Delimeters>
+    <Case>No</Case>
+    <ColorBackground>$00EEF2F2</ColorBackground>
+    <ColorBorder>clSilver</ColorBorder>
+  </General>
+  <Styles>
+    
+    
+    
+    
+    
+    
+    <font>
+      <Title>Normal text</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clWindowText</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Keywords</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlue</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Standart types</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlue</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>String</Title>
+      <Name>Courier New</Name>
+      <ColorFont>$000000C6</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Numbers</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clRed</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Comments</Title>
+      <Name>Courier New</Name>
+      <ColorFont>$0000A9FB</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Tags</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clGreen</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Attributes</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clMaroon</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Events</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clFuchsia</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Doc Type</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clWindowText</ColorFont>
+      <ColorBack>clYellow</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Styles</Title>
+      <Name>Courier New</Name>
+      <ColorFont>$00FF0080</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Keywords</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clGreen</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+  </Styles>
+  <Rules>
+    
+    
+    
+    
+    
+    
+    <Rule>
+      <Name>Tags</Name>
+      <Starter><![CDATA[<]]></Starter>
+      <Ender><![CDATA[>]]></Ender>
+      <Style>6</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>No</Force>
+    </Rule>
+    <Rule>
+      <Name>Style</Name>
+      <Starter><![CDATA[<style]]></Starter>
+      <Ender><![CDATA[style>]]></Ender>
+      <Style>10</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>No</Force>
+    </Rule>
+    <Rule>
+      <Name>Style Zone</Name>
+      <Starter>{</Starter>
+      <Ender>}</Ender>
+      <Style>2</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>No</Force>
+    </Rule>
+    <Rule>
+      <Name>String</Name>
+      <Starter>"</Starter>
+      <Ender>"</Ender>
+      <Style>3</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+    <Rule>
+      <Name>Color</Name>
+      <Starter>#</Starter>
+      <Ender/>
+      <Style>1</Style>
+      <CloseOnDelimeter>Yes</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>No</Force>
+    </Rule>
+    <Rule>
+      <Name>Special Symbol</Name>
+      <Starter>&</Starter>
+      <Ender>;</Ender>
+      <Style>1</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>No</Force>
+    </Rule>
+    <Rule>
+      <Name>Comments</Name>
+      <Starter><![CDATA[<!--]]></Starter>
+      <Ender><![CDATA[-->]]></Ender>
+      <Style>5</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+  </Rules>
+  <Example>
+    
+    
+    
+    <i><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">]]></i>
+    <i><![CDATA[<head>]]></i>
+    <i><![CDATA[<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />]]></i>
+    <i><![CDATA[<title>Untitled Document</title>]]></i>
+    <i><![CDATA[<styletype="text/css">]]></i>
+    <i><![CDATA[<!--]]></i>
+    <i>.STL1 {</i>
+    <i>font-family: Arial, Helvetica, sans-serif;</i>
+    <i>font-size: 14px;</i>
+    <i>color: #FF0000;</i>
+    <i>text-decoration: none;</i>
+    <i>}</i>
+    <i><![CDATA[-->]]></i>
+    <i><![CDATA[</style>]]></i>
+    <i><![CDATA[</head>]]></i>
+    <i><![CDATA[<body>]]></i>
+    <i><![CDATA[<table width="100%" border="0" cellspacing="0" cellpadding="3">]]></i>
+    <i><![CDATA[  <tr>]]></i>
+    <i><![CDATA[    <td bgcolor="#CCCCCC"><strong>Numbers</strong></td>]]></i>
+    <i><![CDATA[    <td bgcolor="#CCCCCC"><strong>First</strong></td>]]></i>
+    <i><![CDATA[  </tr>]]></i>
+    <i><![CDATA[  <tr>]]></i>
+    <i><![CDATA[    <td>1 &amp; 2</td>]]></i>
+    <i><![CDATA[    <td>John</td>]]></i>
+    <i><![CDATA[  </tr>]]></i>
+    <i><![CDATA[</table>]]></i>
+    <i><![CDATA[</body>]]></i>
+    <i><![CDATA[</html>]]></i>
+  </Example>
+  <Author>
+    
+    
+    
+    
+    
+    
+    <Copyright>http://www.mytreedb.com</Copyright>
+    <Email>admin@admin.com</Email>
+    <Name>http://www.mytreedb.com</Name>
+    <URL>http://www.mytreedb.com</URL>
+    <Notes>Delphi syntaxer</Notes>
+  </Author>
+  <Keywords>
+    
+    
+    
+    
+    
+    
+    <lib>
+      <Title>Tags</Title>
+      <Style>11</Style>
+      <List>html|head|meta|body|form|div|tr|td|center|table|font|a|abbr|acronym|address|applet|area|b|base|basefont|bdo|big|blockquote|button|cite|br|caption|code|dd|dfn|col|colgroup|dir|dl|dt|em|fieldset|h2|iframe|h1|i|frame|frameset|h3|h4|h5|h6|hr|ilayer|img|input|isindex|kbd|label|legend|li|link|map|noframes|object|p|menu|ol|noscript|optgroup|option|param|pre|q|s|samp|select|small|span|strike|strong|sub|sup|tbody|text|textarea|tfoot|th|thead|title|tt|ul|u|var||||</List>
+    </lib>
+    <lib>
+      <Title>Attributes</Title>
+      <Style>7</Style>
+      <List>abbr|accept-charset|accept|accesskey|action|align|alink|alt|archive|axis|background|bgcolor|border|cellpadding|cellspacing|char|charoff|charset|checked|cite=|class|classid|clear|code=|codebase|codetype|color|cols|colspan|compact|content|coords|data|datetime|declare|defer|dir=|disabled|enctype|face|for|frame=|frameborder|headers|height|href|hreflang|hspace|http-equiv|id|ismap|label=|lang|language|link|longdesc|mailto|marginheight|marginwidth|maxlength|media|method|multiple|name|nohref|noresize|noshade|nowrap|object=|profile|prompt|readonly|rel|rev|rows|rowspan|rules|scheme|scope|scrolling|selected|shape|size|span=|src|standby|start|style=|summary|tabindex|target|text=|title=|type|usemap|valign|value|valuetype|version|vlink|vspace|width|=|||</List>
+    </lib>
+    <lib>
+      <Title>Events</Title>
+      <Style>8</Style>
+      <List>onblur|onchange|onclick|ondblclick|onfocus|onkeydown|onkeypress|onkeyup|onload|onmousedown|onmousemove|onmouseout|onmouseover|onmouseup|onreset|onselect|onsubmit|onunload|||</List>
+    </lib>
+  </Keywords>
+  <Numbers>
+    
+    
+    
+    
+    
+    <Style>5</Style>
+  </Numbers>
+</XML>

@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<XML>
+  
+  
+  
+  
+  
+  
+  
+  
+  <Engine>
+    
+    
+    
+    
+    
+    
+    
+    
+    <Author>SoftArtStudio</Author>
+    <URL>http://www.mytreedb.com</URL>
+    <Version>1.0</Version>
+  </Engine>
+  <General>
+    
+    
+    
+    
+    
+    
+    
+    
+    <Name>C#</Name>
+    <Version>1.00</Version>
+    <Files>CS</Files>
+    <Delimeters><![CDATA[ :;[]{}-+=()!@#$%^'",.<>?/|\]]></Delimeters>
+    <Case>No</Case>
+    <ColorBackground>$00EEF2F2</ColorBackground>
+    <ColorBorder>clSilver</ColorBorder>
+  </General>
+  <Author>
+    
+    
+    
+    
+    
+    
+    
+    
+    <Copyright>http://www.mytreedb.com</Copyright>
+    <Email/>
+    <Name>http://www.mytreedb.com</Name>
+    <URL>http://www.mytreedb.com</URL>
+    <Notes/>
+  </Author>
+  <Styles>
+    
+    
+    
+    
+    
+    
+    
+    
+    <font>
+      <Title>Normal text</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clWindowText</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Keywords, terms</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlue</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Directives</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clPurple</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Types</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlue</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Numbers</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clRed</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Comments</Title>
+      <Name>Courier New</Name>
+      <ColorFont>$0000A9FB</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Operators</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clGreen</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>String</Title>
+      <Name>Courier New</Name>
+      <ColorFont>$0000ACD7</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+  </Styles>
+  <Keywords>
+    
+    
+    
+    
+    
+    
+    
+    
+    <lib>
+      <Title>Keywords</Title>
+      <Style>1</Style>
+      <List>as|auto|base|break|case|catch|const|continue|default|do|else|event|explicit|extern|false|finally|fixed|for|foreach|goto|if|implicit|in|internal|lock|namespace|null|operator|out|override|params|private|protected|public|readonly|ref|return|sealed|stackalloc|static|switch|this|throw|true|try|unsafe|using|virtual|void|while||||||||</List>
+    </lib>
+    <lib>
+      <Title>Types</Title>
+      <Style>3</Style>
+      <List>bool|byte|char|class|decimal|delegate|double|enum|float|int|interface|long|object|sbyte|short|string|struct|uint|ulong|ushort||||||||</List>
+    </lib>
+    <lib>
+      <Title>Directives</Title>
+      <Style>2</Style>
+      <List>#elif|#endif|#endregion|#else|#error|#define|#if|#line|#region|#undef|#warning||||||||</List>
+    </lib>
+    <lib>
+      <Title>Operators</Title>
+      <Style>6</Style>
+      <List><![CDATA[+|-|*|?|=|//|/|%|&|>|<|^|!|:|checked|is|new|sizeof|typeof|unchecked|||||||]]></List>
+    </lib>
+    <lib>
+      <Title>Closers</Title>
+      <Style>1</Style>
+      <List>{|}||</List>
+    </lib>
+  </Keywords>
+  <Rules>
+    
+    
+    
+    
+    
+    
+    
+    
+    <Rule>
+      <Name>String-1</Name>
+      <Starter>'</Starter>
+      <Ender>'</Ender>
+      <Style>7</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+    <Rule>
+      <Name>String-2</Name>
+      <Starter>"</Starter>
+      <Ender>"</Ender>
+      <Style>7</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+    <Rule>
+      <Name>Comments-1</Name>
+      <Starter>//</Starter>
+      <Ender/>
+      <Style>5</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>Yes</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+    <Rule>
+      <Name>Comments-2</Name>
+      <Starter>/*</Starter>
+      <Ender>*/</Ender>
+      <Style>5</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+  </Rules>
+  <Numbers>
+    
+    
+    
+    
+    
+    
+    
+    
+    <Style>4</Style>
+  </Numbers>
+  <Example>
+    
+    
+    
+    
+    <i>/* -------------------------------------------</i>
+    <i>  C# Source code example</i>
+    <i>  ------------------------------------------- */</i>
+    <i>protected string GetPathName(string stringPath) </i>
+    <i> { </i>
+    <i>   int imageIndex = 0; </i>
+    <i>   int selectIndex = 0; </i>
+    <i>    </i>
+    <i>   const int Removable = 2; </i>
+    <i>   const int LocalDisk = 3; </i>
+    <i>   const int Network = 4; </i>
+    <i>   const int CD = 5; </i>
+    <i>    </i>
+    <i>   this.Name = "MainForm";</i>
+    <i>   this.ResumeLayout(false);</i>
+    <i/>
+    <i>   this.Cursor = Cursors.WaitCursor; </i>
+    <i/>
+    <i>   //Get Name of folder </i>
+    <i>   string[] stringSplit = stringPath.Split('\\'); </i>
+    <i>   int _maxIndex = stringSplit.Length; </i>
+    <i>   return stringSplit[_maxIndex-1]; </i>
+    <i> } </i>
+    <i/>
+    <i>protected string getFullPath(string stringPath) </i>
+    <i> { </i>
+    <i>    //Get Full path string </i>
+    <i>    stringParse = ""; </i>
+    <i>    </i>
+    <i>    //remove My Computer from path. </i>
+    <i>    stringParse = stringPath.Replace("My Computer\\", ""); </i>
+    <i>    return stringParse; </i>
+    <i> } </i>
+  </Example>
+</XML>

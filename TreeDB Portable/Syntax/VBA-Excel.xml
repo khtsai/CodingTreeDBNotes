@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<XML>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <Engine>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <Author>SoftArtStudio</Author>
+    <URL>http://www.mytreedb.com</URL>
+    <Version>1.0</Version>
+  </Engine>
+  <General>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <Name>VBA</Name>
+    <Version>1.00</Version>
+    <Files>bas</Files>
+    <Delimeters><![CDATA[ :;[]{}-+=()!@#$%^'",.<>?/|\]]></Delimeters>
+    <Case>No</Case>
+  </General>
+  <Author>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <Copyright/>
+    <Email/>
+    <Name/>
+    <URL/>
+    <Notes/>
+  </Author>
+  <Styles>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <font>
+      <Title>Normal text</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clWindowText</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Keywords</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlue</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Standart types</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlue</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>String</Title>
+      <Name>Courier New</Name>
+      <ColorFont>$000000C6</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Numbers</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlack</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Comments</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clGreen</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+  </Styles>
+  <Keywords>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <lib>
+      <Title>Types</Title>
+      <Style>3</Style>
+      <List>bool|byte|char|class|decimal|delegate|double|enum|float|int|interface|long|object|sbyte|short|string|struct|uint|ulong|ushort|||||||||||</List>
+    </lib>
+    <lib>
+      <Title>Operators</Title>
+      <Style>6</Style>
+      <List><![CDATA[+|-|*|?|=|//|/|%|&|>|<|^|!|:|checked|is|new|sizeof|typeof|unchecked||||||||||]]></List>
+    </lib>
+    <lib>
+      <Title>Types</Title>
+      <Style>3</Style>
+      <List>bool|byte|char|class|decimal|delegate|double|enum|float|int|interface|long|object|sbyte|short|string|struct|uint|ulong|ushort||||||||||||</List>
+    </lib>
+    <lib>
+      <Title>Directives</Title>
+      <Style>2</Style>
+      <List>#endif|#else|#error|#define|#if|#line|#region|#undef|#warning|||||||||||||</List>
+    </lib>
+    <lib>
+      <Title>Operators</Title>
+      <Style>6</Style>
+      <List><![CDATA[+|-|*|?|=|//|/|%|&|>|<|^|!|:|checked|is|new|sizeof|typeof|unchecked|||||||||||]]></List>
+    </lib>
+    <lib>
+      <Title>Keywords</Title>
+      <Style>1</Style>
+      <List>Abs|Access|Alias|And|Any|AppActivate|Append|ArgName|Array|As|Asc|Atn|Attributes|B|Base|Beep|BF|Binary|Blue|Boolean|Buttons|ByRef|ByVal|Call|Case|CBool|CCur|CDate|CDbl|CDecl|Character|CharCode|ChDir|ChDrive|Chr|CInt|Cl***|CLng|Close|Color|Compare|Const|Constant|Context|Conversion|Cos|CreateObject|CSng|CStr|CurDir|Currency|CVar|CVDate|CVErr|Date|Date|DateSerial|DateValue|Day|Debug|Declare|Default|DefBool|DefCur|DefDate|DefDbl|DefInt|DefLng|DefObj|DefSng|DefStr|DefVar|Destination|Dim|Dir|Do|DoEvents|Double|Drive|Each|Else|ElseIf|Empty|End|EndIf|EOF|Eqv|Erase|Erl|Err|Error|Exit|Exp|Explicit|Expression|F|False|FileAttr|FileCopy|FileDateTime|FileLen|FileNumber|Fix|For|Format|FreeFile|Function|Get|GetAttr|GetObject|Global|GoSub|GoTo|Green|HelpFile|Hex|Hour|If|IMEStatus|Imp|In|Input|InputB|InputBox|InStr|InStrB|Int|Integer|Is|IsArray|IsDate|IsEmpty|IsError|IsMissing|IsNull|IsNumeric|IsObject|Kill|LBound|LCase|Left|LeftB|Len|LenB|Length|Let|Lib|Like|Line|Loc|Local|Lock|LOF|Log|Long|Loop|LSet|LTrim|MacID|MacScript|Mid|MidB|Minute|MkDir|Mod|Module|Month|MsgBox|Name|Next|Not|Nothing|Now|Null|Number|Object|Oct|Of|On|Open|Option|Optional|Or|Output|ParamArray|Path|PathName|Preserve|Print|Private|Prompt|Prompt|Property|Public|Put|Random|Randomize|Read|Red|ReDim|Rem|Reset|Resume|Return|ReturnType|RGB|Right|RightB|RmDir|Rnd|RSet|RTrim|Script|Second|Seek|Select|SendKeys|Set|SetAttr|Sgn|Shared|Shell|Sin|Single|Source|Space|Spc|Sqr|Static|Step|Stop|Str|StrComp|StrConv|Strict|String|String|Sub|Tab|Tan|Text|Then|Time|Timer|TimeSerial|TimeValue|***le|To|Trim|True|Type|TypeName|UBound|UCase|Unknown|Unlock|Until|Val|Variant|VarName|VarType|vbAbort|vbAbortRetryIgnore|vbApplicationModal|vbArchive|vbArray|vbBoolean|vbCancel|vbCritical|vbCurrency|vbDataObject|vbDate|vbDefaultButton1|vbDefaultButton2|vbDefaultButton3|vbDirectory|vbDouble|vbEmpty|vbError|vbExclamation|vbHidden|vbHiragana|vbIgnore|vbInformation|vbInteger|vbKatakana|vbLong|vbLowerCase|vbNarrow|vbNo|vbNormal|vbNull|vbObject|vbOK|vbOKCancel|vbOKOnly|vbProperCase|vbQuestion|vbReadOnly|vbRetry|vbRetryCancel|vbSingle|vbString|vbSystem|vbSystemModal|vbUpperCase|vbVariant|vbVolume|vbWide|vbYes|vbYesNo|vbYesNoCancel|Wait|WeekDay|Wend|Where|While|Width|WindowStyle|With|Write|Xor|XPos|Year|YPos||||</List>
+    </lib>
+  </Keywords>
+  <Rules>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <Rule>
+      <Name>String-1</Name>
+      <Starter>"</Starter>
+      <Ender>"</Ender>
+      <Style>0</Style>
+      <CloseOnDelimeter>Yes</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+    </Rule>
+    <Rule>
+      <Name>Comments-1</Name>
+      <Starter>'</Starter>
+      <Ender>'</Ender>
+      <Style>5</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>Yes</CloseOnEndLine>
+    </Rule>
+  </Rules>
+  <Numbers>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <Style>5</Style>
+  </Numbers>
+  <Example>
+    
+    
+    
+    </Example>
+</XML>

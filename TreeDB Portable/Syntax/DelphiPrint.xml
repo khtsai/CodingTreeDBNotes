@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<XML>
+  
+  
+  
+  
+  
+  <Engine>
+    
+    
+    
+    
+    
+    <Author>SoftArtStudio</Author>
+    <URL>http://www.mytreedb.com</URL>
+    <Version>1.0</Version>
+  </Engine>
+  <General>
+    
+    
+    
+    
+    
+    <Name>Delphi Print BW</Name>
+    <Version>1.00</Version>
+    <Files>pas inc dpr dpk</Files>
+    <Delimeters><![CDATA[ :;[]{}-+=()!@#$%^'",.<>?/|\]]></Delimeters>
+    <Case>No</Case>
+  </General>
+  <Styles>
+    
+    
+    
+    
+    
+    <font>
+      <Title>Default</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlack</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Comments</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlack</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Identifer</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlack</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>String</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlack</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Reserved Word</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlack</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Numbers</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlack</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Types</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clBlack</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+  </Styles>
+  <Rules>
+    
+    
+    
+    
+    
+    <Rule>
+      <Name>String</Name>
+      <Starter>'</Starter>
+      <Ender>'</Ender>
+      <Style>3</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+    </Rule>
+    <Rule>
+      <Name>Identifer</Name>
+      <Starter>{$</Starter>
+      <Ender>}</Ender>
+      <Style>2</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+    </Rule>
+    <Rule>
+      <Name>GUID</Name>
+      <Starter>['{</Starter>
+      <Ender>}']</Ender>
+      <Style>2</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+    </Rule>
+    <Rule>
+      <Name>Comments-1</Name>
+      <Starter>//</Starter>
+      <Ender/>
+      <Style>1</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>Yes</CloseOnEndLine>
+    </Rule>
+    <Rule>
+      <Name>Comments-2</Name>
+      <Starter>{</Starter>
+      <Ender>}</Ender>
+      <Style>1</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+    </Rule>
+    <Rule>
+      <Name>Comments-3</Name>
+      <Starter>(*</Starter>
+      <Ender>*)</Ender>
+      <Style>1</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+    </Rule>
+  </Rules>
+  <Example>
+    </Example>
+  <Author>
+    
+    
+    
+    
+    
+    <Copyright>http://www.mytreedb.com</Copyright>
+    <Email>admin@admin.com</Email>
+    <Name>http://www.mytreedb.com</Name>
+    <URL>http://www.mytreedb.com</URL>
+    <Notes>Delphi syntaxer</Notes>
+  </Author>
+  <Keywords>
+    
+    
+    
+    
+    
+    <lib>
+      <Title>Delphi Terms</Title>
+      <Style>4</Style>
+      <List>procedure|begin|end|unit|interface|uses|then|type|of|object|const|private|while|in|not|function|protected|public|class|override|constructor|property|published|read|write|stored|default|implementation|var|for|to|do|Case|else|If|Do|And|As|In|Far|Cdecl|Is|on|Label|Mod|File|Or|Nil|To|Div|Near|For|Shl|Packed|package|Shr|Then|Not|Pascal|Raise|Index|Out|Goto|While|Xor|Safecall|With|Dispid|Try|Inline|Repeat|Dynamic|Message|Stdcall|Except|Until|Finally|Stored|Interface|deprecated|Abstract|Forward|Library|Program|Downto|overload|Inherited|Assembler|Absolute|contains|Published|Threadvar|Export|Nodefault|External|Automated|Register|platform|Virtual|Protected|requires|Exports|Implements|Dispinterface|Reintroduce|Finalization|Writeonly|Destructor|Constructor|Initialization|Implementation|Resourcestring|Stringresource|asm|||</List>
+    </lib>
+    <lib>
+      <Title>Types</Title>
+      <Style>6</Style>
+      <List>Boolean|PChar|Integer|array|LongInt|TComponent|Pointer|string|ByteBool|Char|Set|Record|integer|WordBool|LongBool|Integer|Cardinal|Shortint|Smallint|Int64|Byte|Word|Longword|AnsiChar|WideChar|Real48|Single|Double|Extended|Comp|Currency|ShortString|AnsiString|WideString|PWideChar|Variant|OleVariant|true|false|PAnsiString|PString|AnsiString|PByteArray|PCurrency|PDouble|PExtended|PSingle|Currency|PInteger|POleVariant|PShortString|PTextBuf|PVarRec|PVariant|PWideString|PWordArray||||</List>
+    </lib>
+    <lib>
+      <Title>Registry const</Title>
+      <Style>2</Style>
+      <List>HKEY_LOCAL_MACHINE|HKEY_CURRENT_USER||||</List>
+    </lib>
+  </Keywords>
+  <Numbers>
+    
+    
+    
+    
+    <Style>5</Style>
+  </Numbers>
+</XML>

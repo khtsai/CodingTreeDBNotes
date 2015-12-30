@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<XML>
+  
+  
+  
+  
+  
+  
+  <Engine>
+    
+    
+    
+    
+    
+    
+    <Author>SoftArtStudio</Author>
+    <URL>http://www.mytreedb.com</URL>
+    <Version>1.0</Version>
+  </Engine>
+  <General>
+    
+    
+    
+    
+    
+    
+    <Name>XUL Dark</Name>
+    <Version>1.0</Version>
+    <Files>xul</Files>
+    <Delimeters><![CDATA[ <>&';:"[]{}-+=()!@#$%^,.?/|\]]></Delimeters>
+    <Case>No</Case>
+    <ColorBackground>clBlack</ColorBackground>
+    <ColorBorder>clWindow</ColorBorder>
+  </General>
+  <Author>
+    
+    
+    
+    
+    
+    
+    <Copyright>www.mytreedb.com</Copyright>
+    <Email/>
+    <Name>www.mytreedb.com</Name>
+    <URL>www.mytreedb.com</URL>
+    <Notes/>
+  </Author>
+  <Styles>
+    
+    
+    
+    
+    
+    
+    <font>
+      <Title>Normal</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clSilver</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>String</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clYellow</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Tags</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clSkyBlue</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Comments</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clGreen</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>marked</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clNavy</ColorFont>
+      <ColorBack>clOlive</ColorBack>
+      <Size>10</Size>
+      <Bold>No</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Keywords</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clSkyBlue</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+    <font>
+      <Title>Attributes</Title>
+      <Name>Courier New</Name>
+      <ColorFont>clGreen</ColorFont>
+      <ColorBack>clNone</ColorBack>
+      <Size>10</Size>
+      <Bold>Yes</Bold>
+      <Italic>No</Italic>
+      <Underline>No</Underline>
+      <Strikeout>No</Strikeout>
+    </font>
+  </Styles>
+  <Keywords>
+    
+    
+    
+    
+    
+    
+    <lib>
+      <Title>Tags</Title>
+      <Style>5</Style>
+      <List>action|arrowscrollbox|assign|bbox|binding|bindings|box|broadcaster|broadcasterset|button|browser|checkbox|caption|colorpicker|column|columns|commandset|command|conditions|content|datepicker|deck|description|dialog|dialogheader|dropmarker|editor|grid|grippy|groupbox|hbox|iframe|image|key|keyset|label|listbox|listcell|listcol|listcols|listhead|listheader|listitem|member|menu|menubar|menuitem|menulist|menupopup|menuseparator|notification|notificationbox|observes|overlay|page|panel|param|popupset|preference|preferences|prefpane|prefwindow|progressmeter|query|queryset|radio|radiogroup|resizer|richlistbox|richlistitem|row|rows|rule|scale|script|scrollbar|scrollbox|scrollcorner|separator|spacer|spinbuttons|splitter|stack|statusbar|statusbarpanel|stringbundle|stringbundleset|tab|tabbrowser|tabbox|tabpanel|tabpanels|tabs|template|textnode|textbox|timepicker|titlebar|toolbar|toolbarbutton|toolbargrippy|toolbaritem|toolbarpalette|toolbarseparator|toolbarset|toolbarspacer|toolbarspring|toolbox|tooltip|tree|treecell|treechildren|treecol|treecols|treeitem|treerow|treeseparator|triple|vbox|where|window|wizard|wizardpage|||||||</List>
+    </lib>
+    <lib>
+      <Title>Events</Title>
+      <Style>5</Style>
+      <List>blur|change|click|dblclick|DOMMouseScroll|focus|keydown|keypress|keyup|load|mousedown|mousemove|mouseout|mouseover|mouseup|select|unload|broadcast|close|command|commandupdate|contextmenu|drag New in Firefox 3|dragdrop|dragend New in Firefox 3|dragenter|dragexit|draggesture|dragover|input|overflow|popuphidden|popuphiding|popupshowing|popupshown|syncfrompreference|synctopreference|underflow|DOMMenuItemActive|DOMMenuItemInactive||||</List>
+    </lib>
+    <lib>
+      <Title>Attributes</Title>
+      <Style>6</Style>
+      <List>acceltext|accessible|accesskey|activetitlebarcolor|afterselected|align|allowevents|allownegativeassertions|alternatingbackground|alwaysopenpopup|attribute|autoCheck|autocompleteenabled|autocompletepopup|autocompletesearch|autocompletesearchparam|autoFill|autoFillAfterMatch|autoscroll|beforeselected|buttonaccesskeyaccept|buttonaccesskeycancel|buttonaccesskeydisclosure|buttonaccesskeyextra1|buttonaccesskeyextra2|buttonaccesskeyhelp|buttonalign|buttondir|buttondisabledaccept|buttonlabelaccept|buttonlabelcancel|buttonlabeldisclosure|buttonlabelextra1|buttonlabelextra2|buttonlabelhelp|buttonorient|buttonpack|buttons|checked|checkState|class|closebutton|closemenu|coalesceduplicatearcs|collapse|collapsed|color|cols|command|commandupdater|completedefaultindex|container|containment|contentcontextmenu|contenttooltip|context|contextmenu|control|crop|curpos|current|currentset|customindex|customizable|cycler|datasources|decimalplaces|default|defaultButton|defaultset|description|dir|disableAutocomplete|disableautoselect|disableclose|disabled|disablehistory|disableKeyNavigation|disablesecurity|dlgtype|dragging|editable|editortype|element|empty|emptytext|enableColumnDrag|enablehistory|equalsize|eventnode|events|expr|firstdayofweek|firstpage|first-tab|fixed|flags|flex|focused|forceComplete|grippyhidden|grippytooltiptext|group|handleCtrlPageUpDown|handleCtrlTab|height|helpURI|hidden|hidechrome|hidecolumnpicker|hideheader|hideseconds|hidespinbuttons|highlightnonmatches|homepage|href|icon|id|ignoreBlurWhileSearching|ignorecase|ignoreincolumnpicker|ignorekeys|image|inactivetitlebarcolor|increment|index|inputtooltiptext|insertafter|insertbefore|instantApply|inverted|iscontainer|isempty|key|keycode|keytext|label|lastpage|lastSelected|last-tab|left|linkedpanel|max|maxheight|maxlength|maxpos|maxrows|maxwidth|member|menu|menuactive|min|minheight|minResultsForPopup|minwidth|mode|modifiers|mousethrough|movetoclick|multiline|multiple|name|negate|newlines|next|noautofocus|noautohide|noinitialfocus|nomatch|norestorefocus|object|observes|onbeforeaccept|onbookmarkgroup|onchange|onclick|onclosetab|oncommand|oncommandupdate|ondialogaccept|ondialogcancel|ondialogclosure|ondialogextra1|ondialogextra2|ondialoghelp|onerror|onerrorcommand|onextra1|onextra2|oninput|onload|onnewtab|onpageadvanced|onpagehide|onpagerewound|onpageshow|onpaneload|onpopuphidden|onpopuphiding|onpopupshowing|onpopupshown|onsearchcomplete|onselect|ontextcommand|ontextentered|ontextrevert|ontextreverted|onwizardback|onwizardcancel|onwizardfinish|onwizardnext|open|ordinal|orient|pack|pageid|pageincrement|pagestep|parent|parsetype|persist|persistence|phase|pickertooltiptext|placeholder|popup|position|predicate|preference|preference-editable|primary|priority|properties|querytype|readonly|ref|rel|removeelement|resizeafter|resizebefore|rows|screenX|screenY|searchbutton|searchSessions|searchlabel|selected|selectedIndex|seltype|setfocus|showcaret|showCommentColumn|showpopup|size|sizemode|sizetopopup|smoothscroll|sort|sortActive|sortDirection|sortResource|sortResource2|spellcheck|src|state|statedatasource|statusbar|statustext|style|subject|substate|suppressonselect|tabindex|tabScrolling|targets|template|timeout|title|toolbarname|tooltip|tooltiptext|tooltiptextnew|top|type|uri|userAction|validate|value|var|wait-cursor|width|windowtype|wrap|wraparound|||||</List>
+    </lib>
+  </Keywords>
+  <Rules>
+    
+    
+    
+    
+    
+    
+    <Rule>
+      <Name>tags</Name>
+      <Starter><![CDATA[<]]></Starter>
+      <Ender><![CDATA[>]]></Ender>
+      <Style>2</Style>
+      <CloseOnDelimeter>Yes</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>No</Force>
+    </Rule>
+    <Rule>
+      <Name>tags</Name>
+      <Starter><![CDATA[</]]></Starter>
+      <Ender><![CDATA[>]]></Ender>
+      <Style>2</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>No</Force>
+    </Rule>
+    <Rule>
+      <Name>string</Name>
+      <Starter>"</Starter>
+      <Ender>"</Ender>
+      <Style>1</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+    <Rule>
+      <Name>Comments</Name>
+      <Starter><![CDATA[<!--]]></Starter>
+      <Ender><![CDATA[-->]]></Ender>
+      <Style>3</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+    <Rule>
+      <Name>special</Name>
+      <Starter><![CDATA[<?xml]]></Starter>
+      <Ender><![CDATA[?>]]></Ender>
+      <Style>4</Style>
+      <CloseOnDelimeter>No</CloseOnDelimeter>
+      <CloseOnEndLine>No</CloseOnEndLine>
+      <Force>Yes</Force>
+    </Rule>
+  </Rules>
+  <Numbers>
+    
+    
+    
+    
+    
+    
+    <Style>2</Style>
+  </Numbers>
+  <Example>
+    
+    
+    
+    
+    
+    
+    <i><![CDATA[<?xml"1.0"?>]]></i>
+    <i><![CDATA[<?xml"chrome://global/skin" type="text/css"?>]]></i>
+    <i/>
+    <i><![CDATA[<description><html:h1>XUL Buttons</html:h1></description>]]></i>
+    <i/>
+    <i><![CDATA[<vbox flex="1" style="overflow: auto">]]></i>
+    <i/>
+    <i><![CDATA[ <groupbox>]]></i>
+    <i><![CDATA[  <caption label="These buttons tab oddly." />]]></i>
+    <i><![CDATA[  <hbox>]]></i>
+    <i><![CDATA[    <button flex="1" label="6" tabindex="6" oncommand="setText('tab-text','6');" />]]></i>
+    <i><![CDATA[    <button flex="1" label="3" tabindex="3" oncommand="setText('tab-text','3');" />]]></i>
+    <i><![CDATA[    <button flex="1" label="4" tabindex="4" oncommand="setText('tab-text','4');" />]]></i>
+    <i><![CDATA[    <button flex="1" label="2" tabindex="2" oncommand="setText('tab-text','2');" />]]></i>
+    <i><![CDATA[    <button flex="1" label="5" tabindex="5" oncommand="setText('tab-text','5');" />]]></i>
+    <i><![CDATA[    <button flex="1" label="1" tabindex="1" oncommand="setText('tab-text','1');" />]]></i>
+    <i><![CDATA[  </hbox>]]></i>
+    <i><![CDATA[  <hbox pack="center">]]></i>
+    <i><![CDATA[    <description  id="tab-text" value="(no input yet)" />]]></i>
+    <i><![CDATA[  </hbox>]]></i>
+    <i><![CDATA[   <hbox align="center">]]></i>
+    <i><![CDATA[      <label style="width:10em" value="Multiline:"  />]]></i>
+    <i><![CDATA[      <textbox id="multiline" multiline="true" rows="7" cols="20"]]></i>
+    <i><![CDATA[               oninput="setText('multiline');" />]]></i>
+    <i><![CDATA[   </hbox>]]></i>
+    <i><![CDATA[ </groupbox>]]></i>
+  </Example>
+</XML>
